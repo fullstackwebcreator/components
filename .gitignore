@@ -33,3 +33,9 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# lock file
+yarn.lock
+
+#storybook
+/storybook-static
