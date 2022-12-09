@@ -1,8 +1,9 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import { Button } from '../components/button/Button'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next"
+import Head from "next/head"
+import Image from "next/image"
+import { Button } from "../components/button/Button"
+import { Card } from "../components/card/Card"
+import styles from "../styles/Home.module.css"
 
 const Home: NextPage = () => {
   return (
@@ -14,7 +15,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Button label="test" size="small" />
+        {/* <Button label="test" size="small" /> */}
+        <Card>{`hello world`}</Card>
       </main>
 
       <footer className={styles.footer}>
